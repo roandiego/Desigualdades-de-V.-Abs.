@@ -1,0 +1,23 @@
+% Octave Script
+% Title			:Valor Absoluto
+% Description		:Funcion de V. Abs.
+% Author		:Diego Romero Antonio
+% Date			:202123778
+% Version		:1
+% Usage			:C:\Users\SERVODOR-RNCANT\Desktop\DIEGO R\Dieego
+% Notes			:Requiere aplicacion octave usar en consola preferentemente
+
+
+Funtion in Valor Absoluto 
+
+Funtion "valorAbsoluto"(a)
+    fprintf(*%d\t, abs(a) )
+end
+
+
+for i  = 1:10 
+
+      n = input (" favor ingresar un numero: ")   
+      valorAbsoluto(n)
+      
+end      
