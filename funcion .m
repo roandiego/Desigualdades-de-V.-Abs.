@@ -26,10 +26,10 @@ syms x
 disp('-----------------inecuaciones de segundo grado-------');
 disp('----5x^2+3x+8<0---')
 
-solve (5x^2+3x-8)
+solve (5x^2+3x-8<0)
 
 syms x
-f=(5x^2*2+3x-8
+f=(5*x^2*2+3x-8
 subplot (3,3,2)
 ezplot (f)
 
